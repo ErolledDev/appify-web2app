@@ -48,9 +48,11 @@ export const Hero = () => {
             </Button>
           </div>
           <div className="flex-1 relative">
-            <div className="w-full h-[500px] bg-gradient-to-br from-primary/20 to-accent/20 rounded-3xl animate-fade-in">
-              {/* Placeholder for vector graphic */}
-            </div>
+            <img
+              src="https://raw.githubusercontent.com/ErolledDev/appify-6c6703a6/main/mobile.png"
+              alt="Mobile app preview"
+              className="w-full max-w-[400px] mx-auto lg:max-w-none h-auto object-contain rounded-3xl shadow-xl animate-fade-in"
+            />
           </div>
         </div>
       </div>
