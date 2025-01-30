@@ -1,69 +1,58 @@
-# Welcome to your Lovable project
+# Appify - Website to Mobile App Converter
 
-## Project info
+Transform your website into a native Android or iOS app instantly! Appify provides a seamless solution to convert your website into a mobile application without any coding required.
 
-**URL**: https://lovable.dev/projects/34ccd9b2-9b11-472b-9500-e540d3fe04e3
+## Features
 
-## How can I edit this code?
+- **Fast Delivery**: Get your mobile app as soon as we receive your order
+- **Simple Process**: No coding required - just verify your website ownership
+- **Seamless Experience**: Reach more users with a mobile-optimized app
+- **Cross-Platform**: Support for both Android and iOS platforms
 
-There are several ways of editing your application.
+## Getting Started
 
-**Use Lovable**
+1. Visit [Appify](https://appify.com)
+2. Click on "Get Started"
+3. Fill out the required information:
+   - App name
+   - App icon
+   - Splash screen
+   - Your website URL
+4. Verify your website ownership
+5. Choose your platform (Android/iOS)
+6. Complete the payment
+7. Receive your mobile app!
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/34ccd9b2-9b11-472b-9500-e540d3fe04e3) and start prompting.
+## Verification Process
 
-Changes made via Lovable will be committed automatically to this repo.
+You can verify your website ownership in two ways:
 
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+1. Add a meta tag to your website's head section:
+```html
+<meta data-name="OpenApp" content="verifyd2x2Q0daenROOWo2QmtTWjJ3WnA0UT09" />
 ```
 
-**Edit a file directly in GitHub**
+2. Upload a verification file to your website's root directory
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## Pricing
 
-**Use GitHub Codespaces**
+- Basic Package: $10 (Regular price: $20)
+- Platform Add-ons: $5 per platform (Android/iOS)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+## Contact Us
 
-## What technologies are used for this project?
+- Phone: +639169888275
+- Email: appify-web2app@gmail.com
 
-This project is built with .
+## Find Us On
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+- [Facebook Marketplace](#)
+- [TikTok](#)
+- [Fiverr](#)
+- [Instagram](#)
+- [Raket.ph](#)
+- [YouTube](#)
 
-## How can I deploy this project?
+## License
 
-Simply open [Lovable](https://lovable.dev/projects/34ccd9b2-9b11-472b-9500-e540d3fe04e3) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+Copyright © 2024 Appify. All rights reserved.

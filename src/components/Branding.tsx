@@ -1,11 +1,11 @@
 export const Branding = () => {
   const platforms = [
-    { name: "Facebook", icon: "📱" },
-    { name: "TikTok", icon: "🎵" },
-    { name: "Fiverr", icon: "💼" },
-    { name: "Instagram", icon: "📸" },
-    { name: "Raket.ph", icon: "🚀" },
-    { name: "YouTube", icon: "▶️" },
+    { name: "Facebook", logo: "/facebook-logo.svg" },
+    { name: "TikTok", logo: "/tiktok-logo.svg" },
+    { name: "Fiverr", logo: "/fiverr-logo.svg" },
+    { name: "Instagram", logo: "/instagram-logo.svg" },
+    { name: "Raket.ph", logo: "/raket-logo.svg" },
+    { name: "YouTube", logo: "/youtube-logo.svg" },
   ];
 
   return (
@@ -19,7 +19,11 @@ export const Branding = () => {
                 key={platform.name}
                 className="flex flex-col items-center justify-center p-4 rounded-lg hover:bg-gray-50 transition-colors duration-300"
               >
-                <span className="text-4xl mb-2">{platform.icon}</span>
+                <img 
+                  src={platform.logo} 
+                  alt={`${platform.name} logo`} 
+                  className="h-12 w-auto mb-2 object-contain"
+                />
                 <span className="font-medium">{platform.name}</span>
               </div>
             ))}
